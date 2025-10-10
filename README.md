@@ -2,7 +2,7 @@
 
 <p>
 Credit for shit I used<br>
-- the fish image<br> 
+- the fish image was made by [insert guy who made image here]<br> 
 - <a href="https://ditherit.com/">ditherit.com</a>  great website for dithering shit
 </p>
 
