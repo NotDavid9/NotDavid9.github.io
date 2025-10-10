@@ -1,0 +1,68 @@
+
+              html {
+        font-family: sans-serif;
+        image-rendering: pixelated;
+        background: url(Images/BetterDitheredWW90sConfetti.png) repeat center;
+      }
+
+            p {
+      text-align: center; 
+      margin: 40px; 
+      font-family:"Henny Penny";
+      }
+
+
+      header {
+        margin-top: 0;
+        image-rendering: pixelated;
+        background: url(Images/OtherNightSky.gif) no-repeat center;
+        height: 400px;
+        width: "width"
+
+      }
+
+      .pixelated{
+        image-rendering: pixelated;
+      }
+
+            body {
+        width: 150%;
+        max-width: 1250px;
+        margin: 0 auto;
+        background: white;
+      }
+
+        .color-changing-stuff {
+            animation: changeColor 1s infinite running; /* 5s duration, infinite loop, running direction https://developer.mozilla.org/en-US/docs/Web/CSS/animation*/
+        }
+        @keyframes changeColor {
+            0% { color: rgb(255, 0, 0); }
+            16.7% { color: rgb(255, 255, 0); }
+            38.3% { color: rgb(0, 255, 0); }
+            50% { color: rgb(0, 255, 255); }
+            66.7% { color: rgb(0, 0, 255); }
+            83.3% { color: rgb(255, 0, 255); }
+            100% { color: rgb(255, 0, 0); }
+        }
+
+        
+        /*moving text dosent work*/
+        .moving-text {
+            animation: slide-in 2s infinite alternate;
+        }
+        @keyframes slide-in {
+
+        }
+
+        /*center Tag*/
+        .center {
+        display: block;
+          margin-left: auto;
+          margin-right: auto;
+}
+
+.jersey-10-regular {
+  font-family: "Jersey 10", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
