@@ -3,7 +3,6 @@
         font-family: sans-serif;
         image-rendering: pixelated;
         background: url(Images/BetterDitheredWW90sConfetti.png) repeat center;
-        position: absolute; /* Positions psuedo element relative to .icon */
         content: ""; /* Allows psuedo element to show */
         background: #EC008C; /* The color you want the icon to change to */
         mix-blend-mode: multiply; /* Only apply color on top of white, use screen if icon is black */
