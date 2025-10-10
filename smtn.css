@@ -2,9 +2,18 @@
               html {
         font-family: sans-serif;
         image-rendering: pixelated;
-        background-color: blueviolet;
-        background: url(Images/TransBetterDitheredWW90sConfetti.png) repeat center;
+        background: url(Images/BetterDitheredWW90sConfetti.png) repeat center;
       }
+
+              html::after{
+        position: absolute; /* Positions psuedo element relative to .icon */
+        width: 100%; /* Same dimensions as .icon */
+        height: 100%;
+        content: ""; /* Allows psuedo element to show */
+        background: #EC008C; /* The color you want the icon to change to */
+        mix-blend-mode: multiply; /* Only apply color on top of white, use screen if icon is black */
+      }
+
 
             p {
       text-align: center; 
