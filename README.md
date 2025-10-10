@@ -1,3 +1,3 @@
 # Cool Wbsite
-For some reason
-the link always goes to gated.com and i have no clue how to fix it
+
+This is just a really cool website that I made for fun, because i was bored in class
