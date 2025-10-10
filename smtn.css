@@ -2,8 +2,8 @@
               html {
         font-family: sans-serif;
         image-rendering: pixelated;
+        background-color: blueviolet;
         background: url(Images/TransBetterDitheredWW90sConfetti.png) repeat center;
-        background-color: blueviolet
       }
 
             p {
