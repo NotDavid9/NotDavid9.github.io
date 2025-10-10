@@ -3,9 +3,6 @@
         font-family: sans-serif;
         image-rendering: pixelated;
         background: url(Images/BetterDitheredWW90sConfetti.png) repeat center;
-      }
-
-              html::after{
         position: absolute; /* Positions psuedo element relative to .icon */
         width: 100%; /* Same dimensions as .icon */
         height: 100%;
