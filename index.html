@@ -96,20 +96,6 @@
             <br><button type="submit">Upload</button>
           </main>
 
-<!--change backround color-->
-<script>
-const defaultColor = "#0000ff";
-const colorPicker = document.querySelector("#color-picker");
-colorPicker.value = defaultColor;
-colorPicker.addEventListener("input", updateFirst);
-colorPicker.addEventListener("change", updateAll);
-colorPicker.select();
-</script>
-
-<h1>Change the Backround color</h1>
-<input type="color" value="#b700ff" id="color-picker"/>
-
-
 
 
 
@@ -134,5 +120,24 @@ colorPicker.select();
   <source src="alarm.wav" type="audio/wav" class="center">
 Your browser does not support the audio element.
     </audio>
+
+
+
+<br><br>
+<!-- ~BACKROUND COLOR CHANGING CODE~ -->
+<h1 class="center">&nbsp; Change the Backround color</h1>
+&nbsp;
+<label class="center" for="color-picker">Pick a Color:</label>
+<input
+class="center"
+type="color" 
+value="#ffffff"
+id="color-picker"/>
+
+<script src="BCcolor.js"></script>
+<br><br><br>
+
+
+
 
     </html>

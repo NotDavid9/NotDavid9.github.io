@@ -5,6 +5,18 @@
         background: url(Images/BetterDitheredWW90sConfetti.png) repeat center;
               }
 
+            html {
+    image-rendering: pixelated;
+    background: url(Images/BetterDitheredWW90sConfetti.png) repeat center;
+    background-color: white;
+    background-blend-mode: multiply;
+}
+
+
+
+
+
+
 
             p {
       text-align: center; 
@@ -60,6 +72,10 @@
         display: block;
           margin-left: auto;
           margin-right: auto;
+          align-items: center;
+          justify-content: center;
+          text-align: center
+          
 }
 
 .jersey-10-regular {
