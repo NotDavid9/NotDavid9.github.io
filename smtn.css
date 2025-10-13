@@ -1,21 +1,10 @@
 
-              html {
-        font-family: sans-serif;
-        image-rendering: pixelated;
-        background: url(Images/BetterDitheredWW90sConfetti.png) repeat center;
-              }
-
             html {
     image-rendering: pixelated;
     background: url(Images/BetterDitheredWW90sConfetti.png) repeat center;
     background-color: white;
     background-blend-mode: multiply;
 }
-
-
-
-
-
 
 
             p {
