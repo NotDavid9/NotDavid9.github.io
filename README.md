@@ -1,4 +1,4 @@
-# Cool Wbsite
+# Cool Website
 
 <p>
 Credit for shit I used<br>
@@ -9,3 +9,4 @@ Credit for shit I used<br>
 ==========================================================================================
 
 This is just a really cool website that I made for fun, because i was bored in class
+This might also someday serve as some sort of portfolio
