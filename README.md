@@ -7,6 +7,7 @@ Credit for shit I used<br>
 </p>
 
 ==========================================================================================
-
+<p>
 This is just a really cool website that I made for fun, because i was bored in class
 This might also someday serve as some sort of portfolio
+</p>
