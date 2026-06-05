@@ -15,6 +15,7 @@
 
 
       header {
+        margin: 0 ;
         image-rendering: pixelated;
         background: url(Images/OtherNightSky.gif) no-repeat center;
         height: 400px;
